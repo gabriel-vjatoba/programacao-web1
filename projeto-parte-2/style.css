@@ -1,1 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.hero-image-title{
+    display: flex;
+    color: dodgerblue;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.hero-image-title .crypto-img {
+    filter: invert(46%) sepia(24%) saturate(6533%) hue-rotate(193deg) brightness(103%) contrast(101%);
+    margin-right: 50px;
+    width: 100px;
+}
+
+.about-crypto {
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    margin: auto 60px;
+}
+
+.container-about-crypto {
+    width: 600px;
+    margin-right: 100px;
+}
+
+.container-about-crypto h2 {
+    font-size: xx-large;
+}
+
+.container-about-crypto p {
+    font-size: large;
+    text-align: justify;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 100px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    background-color: dodgerblue;
+}
+
+nav ul a:hover {
+    background-color: rgb(19, 92, 165);
+}
+
+.hero-top-crypto h1 {
+    font-size: xx-large;
+    color: dodgerblue;
+}
+
+.top-cryptos ol{
+    font-size: x-large;
+}
+
+.top-cryptos p{
+    font-size: large;
+    font-style: italic;
+}
+
+.newsletter {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 120px;
+}
